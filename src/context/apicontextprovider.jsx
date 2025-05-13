@@ -19,7 +19,7 @@ function ApicontextProvider ({children}) {
             console.log(error);
         }
         
-    } , [])
+    } , [api])
 
     return (
         <>
